@@ -1,0 +1,91 @@
+@use '../../global/reused.scss' as *;
+
+
+
+.subscribe{
+    background-color: $primary-1-950;
+    padding: 2rem 0;
+    @include media(tablet){
+        padding: 5rem 0;
+    }
+
+    .holder{
+        @include media(tablet){
+            display: flex;
+            gap: 1rem;
+        }
+    }
+
+
+
+
+    .head{
+
+        .subTitle{
+            color: $primary-2-500;
+        }
+
+        .title{
+            color: $primary-2-50;
+
+            span{
+                position: relative;
+                img{
+                    position: absolute;
+                    bottom: -1rem;
+                    left: 0;
+                    width: 100%;
+                    
+                }
+            }
+        }
+
+    }
+
+
+    .send{
+        display: flex;
+        flex-direction: column;
+        @include media(tablet){
+            gap: 10rem;
+        }
+        p{
+            color: $neutral-50;
+        }
+
+
+        .input{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 1rem;
+
+            @include media(tablet){
+                position: relative;
+            }
+
+            input{
+                border: none;
+                outline: none;
+                padding: 1rem;
+                background-color: transparent !important;
+                border-bottom: 1px solid $neutral-400;
+                caret-color: $neutral-400;
+                color: $neutral-400;
+            }
+
+            button{
+                @include media(tablet){
+                    position: absolute;
+                    bottom: 1rem;
+                    right: 0;
+                }
+            }
+
+        }
+
+
+    }
+
+
+}

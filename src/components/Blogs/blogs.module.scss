@@ -1,0 +1,111 @@
+@use '../../global/reused.scss' as *;
+
+
+
+
+.blogs{
+    padding: 2rem 0;
+    
+
+    .holder{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+
+    .upper{
+        .subTitle{
+            color: $primary-2-500;
+        }
+        .title{
+            span{
+                position: relative;
+                img{
+                    position: absolute;
+                    top: 0;
+                    left: -1rem;
+                    width: 110%;
+                    z-index: -1;
+                }
+            }
+            @include media(tablet){
+                max-width: 75rem;
+                margin-inline: auto;
+                
+            }
+        }
+        @include media(tablet){
+            text-align: center;
+        }
+    }
+
+
+
+    .cardHolder{
+        display: grid;
+        gap: 2rem;
+        @include media(tablet){
+            grid-template-columns: repeat(3,1fr);
+            
+        }
+        
+        .cardSubTitle{
+            color: $primary-2-500;
+        }
+
+        .bigCard{
+            background-color: $primary-1-50;
+            
+            @include media(tablet){
+                grid-column: span 3;
+                display: flex;
+                // justify-content: space-between;
+            }
+            .bigCardInfo{
+                padding: 1rem;
+                @include media(tablet){
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    padding: 1rem 3rem;
+                }
+            }
+            .bigCardPhoto{
+                img{
+                    width: 100%;
+                    @include media(tablet){
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+
+        .card{
+            background-color: $primary-1-50;
+            @include media(tablet){
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                flex-shrink: 1;
+            }
+            .cardInfo{
+                padding: 1rem;
+            }
+            .cardPhoto{
+                img{
+                    width: 100%;
+                    @include media(tablet){
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+
+
+        
+    }
+
+
+}

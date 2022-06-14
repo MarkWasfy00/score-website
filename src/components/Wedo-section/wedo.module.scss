@@ -1,0 +1,81 @@
+@use '../../global/reused.scss' as *;
+
+
+
+.weDo{
+    padding: 2rem 0;
+    background-color: $neutral-50;
+    @include media(tablet){
+        padding: 5rem 0;
+    }
+
+    .upper{
+        @include media(tablet){
+            display: flex;
+            gap: 2rem;
+        }
+        
+
+        .left{
+            .subTitle{
+                color: $primary-2-500;
+                
+            }
+            .title{
+                
+                span{
+                    position: relative;
+                    img{
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .right{
+            @include media(tablet){
+                max-width: 75rem;
+                p{
+                    line-height: 3rem;
+                }
+            }
+        }
+    }
+
+
+
+    .cardHolder{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+        padding: 2rem 0;
+        @include media(tablet){
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: flex-start;
+            
+            row-gap: 8rem;
+            
+        }
+
+        .card{
+            @include media(tablet){
+                width: 40%;
+            }
+            .cardPhoto{
+                img{
+                    object-fit: contain;
+                    height: 20rem;
+                    width: 30rem;
+                }
+            }
+        }
+    }
+
+
+}
