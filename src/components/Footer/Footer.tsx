@@ -7,7 +7,7 @@ const Footer = () => {
             <div className={styles.upper}>
                 <div className="info">
                     <div className="logo">
-                        <img src="/Logo-white.png" alt="logo" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/score-website-1391b.appspot.com/o/Logo-white.png?alt=media&token=8753d2f3-857d-4eaf-b1bd-fbb3017807a8" alt="logo" />
                     </div>
                     <p className="regular-16">Pacific Century Place 16/F SCBD Lot 10, Jl. Jend. Sudirman Kav. 52-53, Jakarta 12190</p>
                 </div>
@@ -36,10 +36,10 @@ const Footer = () => {
                 </div>
                 <div className={styles.sponsers}>
                     <div className="sponser">
-                        <img src="/sponser-2-white.png" alt="sponser" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/score-website-1391b.appspot.com/o/sponser-2-white.png?alt=media&token=46c8b0bb-da42-437d-a1f4-12887c4fe2be" alt="sponser" />
                     </div>
                     <div className="sponser">
-                        <img src="/sponser-1-white.png" alt="sponser" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/score-website-1391b.appspot.com/o/sponser-1-white.png?alt=media&token=7c6921d2-da9e-430b-83c8-fb8ceef49459" alt="sponser" />
                     </div>
                 </div>
             </div>

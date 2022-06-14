@@ -15,17 +15,17 @@ const WhyUs = () => {
             </div>
             <div className={styles.cardsHolder}>
                 <div className={styles.card}>
-                    <img src="/card-1.png" alt="card" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/score-website-1391b.appspot.com/o/card-1.png?alt=media&token=72e9b1bf-5ab7-43ad-a458-64e75514fe76" alt="card" />
                     <div className="semi-bold-31">Saving more money easily</div>
                     <p className='light-16'>we can help you save more money and keep you on your toes. by investing your funds, the money you have today can be more useful.</p>
                 </div>
                 <div className={styles.card}>
-                    <img src="/card-2.png" alt="card" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/score-website-1391b.appspot.com/o/card-2.png?alt=media&token=8a42adbd-02e2-4cff-b6bd-b99b80c5210b" alt="card" />
                     <div className="semi-bold-31">Get your dream target</div>
                     <p className='light-16'>we can help you save more money and keep you on your toes. by investing your funds, the money you have today can be more useful.</p>
                 </div>
                 <div className={styles.card}>
-                    <img src="/card-3.png" alt="card" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/score-website-1391b.appspot.com/o/card-3.png?alt=media&token=edc9db0b-2530-4c3d-9129-ca4327840ff5" alt="card" />
                     <div className="semi-bold-31">Effective and efficient</div>
                     <p className='light-16'>we can help you save more money and keep you on your toes. by investing your funds, the money you have today can be more useful.</p>
                 </div>
