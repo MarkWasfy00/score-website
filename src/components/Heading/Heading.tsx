@@ -5,7 +5,7 @@ const Heading = () => {
     <section className={styles.heading}>
         <div className={`container ${styles.Holder}`}>
             <div className={styles.frame}>
-                <img src="https://firebasestorage.googleapis.com/v0/b/score-website-1391b.appspot.com/o/webp%2FFrame-Heading.webp?alt=media&token=030464a7-1007-47da-8e05-b8a0190a3880" alt="heading" width="500" height="500" />
+                <img loading="lazy" src="https://firebasestorage.googleapis.com/v0/b/score-website-1391b.appspot.com/o/webp%2FFrame-Heading.webp?alt=media&token=030464a7-1007-47da-8e05-b8a0190a3880" alt="heading" width="500" height="500" />
             </div>
             <div className={styles.headingTitle}>
                 <div className="bold-61">Managing investment has never been <span className={styles.easier}>easier <img src="https://firebasestorage.googleapis.com/v0/b/score-website-1391b.appspot.com/o/webp%2Feasier.webp?alt=media&token=cf798afa-b89c-4919-a804-5df200486f6a" alt="marker" /></span></div>
