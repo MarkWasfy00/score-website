@@ -38,9 +38,10 @@
     }
 
     .frame{
+        
         img{
-            width: 100%;
-           
+            max-width: 100%;
+            height: auto;
             
         }
     }
@@ -51,6 +52,8 @@
         align-items: center;
         img{
             object-fit: contain;
+            max-width: 100%;
+            height: auto;
         }
     }
 
@@ -63,6 +66,11 @@
             top: 50%;
             right: 0;
             transform: translateY(-50%);
+            img{
+                max-width: 100%;
+                height: auto;
+                object-fit: contain;
+            }
         }
     }
     .birdsLeft{
@@ -72,6 +80,11 @@
             position: absolute;
             left: 0;
             bottom: 20%;
+            img{
+                max-width: 100%;
+                height: auto;
+                object-fit: contain;
+            }
         }
     }
     .paint{
@@ -82,7 +95,9 @@
             bottom: -15%;
             right: 0;
             img{
-                max-width: 20rem;
+                max-width: 100%;
+                height: auto;
+                object-fit: contain;
             }
         }
     }

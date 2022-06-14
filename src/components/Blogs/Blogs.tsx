@@ -7,7 +7,7 @@ const Blogs = () => {
         <div className={`container ${styles.holder}`}>
             <div className={styles.upper}>
                 <div className={`bold-25 ${styles.subTitle}`}>Blogs</div>
-                <div className={`bold-61 ${styles.title}`}>Important Concepts and Topics on <span>Finance <img src="https://firebasestorage.googleapis.com/v0/b/score-website-1391b.appspot.com/o/finance.png?alt=media&token=2162dbe7-2708-4f14-809d-2a6476349625" alt="finance" /></span> and Financial Analysis.</div>
+                <div className={`bold-61 ${styles.title}`}>Important Concepts and Topics on <span>Finance <img src="https://firebasestorage.googleapis.com/v0/b/score-website-1391b.appspot.com/o/webp%2Ffinance.webp?alt=media&token=ec90df43-f12f-4d16-abe8-06202928ee0a" alt="finance" width="60" height="60" /></span> and Financial Analysis.</div>
             </div>
             <div className={styles.cardHolder}>
                 <div className={styles.bigCard}>
@@ -18,7 +18,7 @@ const Blogs = () => {
                         <button className="btn-contained semi-bold-16">Read More →</button>
                     </div>
                     <div className={styles.bigCardPhoto}>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/score-website-1391b.appspot.com/o/big-card.png?alt=media&token=3a7f75fb-1d03-4049-a432-244a1ca31af3" alt="investment" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/score-website-1391b.appspot.com/o/webp%2Fbig-card.webp?alt=media&token=cc849787-f5f7-407f-9b51-cd6646c4036e" alt="investment" width="500" height="500" />
                     </div>
                 </div>
                 <div className={styles.card}>
@@ -27,7 +27,7 @@ const Blogs = () => {
                         <div className="bold-39">Dividend vs Share Buyback/Repurchase</div>
                     </div>
                     <div className={styles.cardPhoto}>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/score-website-1391b.appspot.com/o/card-best-practice.png?alt=media&token=1ce37eb9-0de3-4e14-b023-b0741daa2ca1" alt="blog" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/score-website-1391b.appspot.com/o/webp%2Fcard-best-practice.webp?alt=media&token=f667d2e0-bbbe-4950-ac78-e904621943f7" alt="blog" width="500" height="500" />
                     </div>
                 </div>
                 <div className={styles.card}>
@@ -36,7 +36,7 @@ const Blogs = () => {
                         <div className="bold-39">Markets in Financial Instruments Directive (MiFID)</div>
                     </div>
                     <div className={styles.cardPhoto}>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/score-website-1391b.appspot.com/o/card-capital-market.png?alt=media&token=47528677-952c-424f-9551-7cf411d8a8a5" alt="blog" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/score-website-1391b.appspot.com/o/webp%2Fcard-capital-market.webp?alt=media&token=24254c97-7215-42ee-80a4-3e82003f67d3" alt="blog" width="500" height="500" />
                     </div>
                 </div>
                 <div className={styles.card}>
@@ -45,7 +45,7 @@ const Blogs = () => {
                         <div className="bold-39">Infinite Banking – Becoming Your Own Banker</div>
                     </div>
                     <div className={styles.cardPhoto}>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/score-website-1391b.appspot.com/o/card-analysis.png?alt=media&token=92d51511-e54d-4e31-bf25-f4598ef3771d" alt="blog" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/score-website-1391b.appspot.com/o/webp%2Fcard-analysis.webp?alt=media&token=d3a94c65-66d7-4b17-b77a-7dc13f65cccb" alt="blog" width="500" height="500" />
                     </div>
                 </div>
             </div>

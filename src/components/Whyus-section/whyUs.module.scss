@@ -58,6 +58,11 @@
         }
 
         .card{
+            img{
+                max-width: 100%;
+                height: auto;
+                object-fit: contain;
+            }
             text-align: center;
             padding: 2rem 1rem;
             background-color: white;

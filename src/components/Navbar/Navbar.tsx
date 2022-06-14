@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className={styles.nav}>
         <div className={`container ${styles.navHolder}`}>
             <div className="slogan">
-                <img src="https://firebasestorage.googleapis.com/v0/b/score-website-1391b.appspot.com/o/Logo.png?alt=media&token=3119d250-3f6e-4fdf-bc68-eaa35aa88f0a" alt="Logo" />
+                <img src="https://firebasestorage.googleapis.com/v0/b/score-website-1391b.appspot.com/o/webp%2FLogo.webp?alt=media&token=808b7a3e-acf3-4550-9a31-c634f7fc8ffc" alt="Logo" />
             </div>
             <div className={`regular-25`}>
                 <ul className={styles.links}>
