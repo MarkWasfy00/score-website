@@ -1,0 +1,92 @@
+@use '../../global/reused.scss' as *;
+
+.heading{
+    background-color: $primary-1-50;
+    padding: 2rem 0;
+    position: relative;
+
+    @include media(tablet){
+        padding: 5rem 0;
+    }
+
+
+    .Holder{
+        
+        @include media(tablet){
+            display: flex;
+            justify-content: space-around;
+            gap: 2rem;
+        }
+
+    }
+
+
+    .headingTitle{
+        
+        .easier{
+            position: relative;
+            img{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+            }
+        }
+        @include media(tablet){
+            width: 40rem;
+        }
+    }
+
+    .frame{
+        img{
+            width: 100%;
+           
+            
+        }
+    }
+
+
+    .supervised{
+        display: flex;
+        align-items: center;
+        img{
+            object-fit: contain;
+        }
+    }
+
+
+    .birdsRight{
+        display: none;
+        @include media(tablet){
+            display: block;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+        }
+    }
+    .birdsLeft{
+        display: none;
+        @include media(tablet){
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: 20%;
+        }
+    }
+    .paint{
+        display: none;
+        @include media(tablet){
+            display: block;
+            position: absolute;
+            bottom: -15%;
+            right: 0;
+            img{
+                max-width: 20rem;
+            }
+        }
+    }
+
+}
+
+

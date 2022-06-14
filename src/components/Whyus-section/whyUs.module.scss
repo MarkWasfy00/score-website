@@ -1,0 +1,66 @@
+@use '../../global/reused.scss' as *;
+
+
+
+
+.section {
+    background-color: $neutral-50;
+    padding: 2rem 0;
+
+    .holder{
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .upper{
+        @include media(tablet){
+            display: flex;
+            justify-content: space-around;
+            gap: 5rem;
+        }
+    }
+
+    .left{
+        .subTitle{
+            color: $primary-2-500;
+        }
+
+        .title{
+            @include media(tablet){
+                max-width: 40rem;
+            }
+        }
+       
+    }
+
+    .right{
+        @include media(tablet){
+            p{
+                max-width: 50rem;
+                line-height: 2.5rem;
+            }
+
+        }
+    }
+
+
+    .cardsHolder{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        
+        @include media(tablet){
+            flex-direction: row;
+        }
+
+        .card{
+            text-align: center;
+            padding: 2rem 1rem;
+            background-color: white;
+            border-bottom: 5px solid orange;
+        }
+    }
+
+
+}

@@ -1,0 +1,19 @@
+@use './variables.scss' as * ;
+
+// Buttons 
+
+.btn-contained {
+    padding: 1rem 2rem;
+    background-color: $primary-2-500;
+    border: 1px solid transparent;
+    color: $primary-1-50;
+    border-radius: .5rem;
+}
+
+.btn-outlined {
+    padding: 1rem 2rem;
+    border: 1px solid $primary-2-500;
+    color: $primary-2-500;
+    background-color: transparent;
+    border-radius: .5rem;
+}

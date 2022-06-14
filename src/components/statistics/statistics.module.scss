@@ -1,0 +1,75 @@
+@use '../../global/reused.scss' as *;
+
+
+.statistics{
+    padding: 2rem 0;
+    @include media(tablet){
+        padding: 5rem 0;
+    }
+
+    .upper{
+        .subTitle{
+            color: $primary-2-500;
+        }
+
+        .title{
+            span{
+                position: relative;
+                img{
+                    width: 100%;
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    transform: translateY(-50%);
+                    z-index: -1;
+                }
+            }
+            @include media(tablet){
+                max-width: 50rem;
+            }
+        }
+
+        p{
+            @include media(tablet){
+                max-width: 60rem;
+            }
+        }
+
+    }
+
+    .lower{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        .photo{
+            img{
+                width: 100%;
+                max-width: 65rem;
+            }
+        }
+
+
+        .info{
+            .block{
+                .marker{
+                    color: $primary-2-300;
+                }
+            }
+            @include media(tablet){
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+            }
+        }
+    
+        @include media(tablet){
+            flex-direction: row-reverse;
+            justify-content: space-between;
+        }
+
+    }
+
+
+
+
+}
